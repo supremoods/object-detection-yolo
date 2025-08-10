@@ -37,3 +37,8 @@ obj-detection\Scripts\Activate.ps1
 ```
 pip install -r requirements.txt
 ```
+
+### 4. run the app
+```
+python app.py
+```
