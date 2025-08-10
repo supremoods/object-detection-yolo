@@ -10,7 +10,7 @@ model = YOLO("yolov8s-world.pt")  # Using standard YOLOv8 Nano model
 # yolov8s-world.py
 
 
-model.set_classes(['watch', 'phone'])
+model.set_classes(['traffic-signs', 'phone'])
 
 # Open the webcam
 cap = cv2.VideoCapture(0)
